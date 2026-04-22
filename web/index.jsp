@@ -13,10 +13,8 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <%
-            for(int i=0;i<10;i++){
-                out.println(i);
-            }
-        %>
+        <button onclick="cargarSaludo()">Obtener saludo</button>
+        <p id="respuesta"></p>
+        <script src="js/prod.js"></script>
     </body>
 </html>
