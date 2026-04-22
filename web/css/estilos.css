@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 30px;
+}
+
+h2{
+    text-align: center;
+    color: #333;
+}
+
+.tabla-productos{
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabla-productos thead{
+    background: #007bff;
+    color: white;
+}
+
+.tabla-productos th,
+.tabla-productos td{
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-productos tbody tr:nth-child(even){
+    background: #f9f9f9;
+}
+
+.tabla-productos tbody tr:hover{
+    background: #eaf3ff;
+    transition: 0.3s;
+}
+
+.contenedor-tabla{
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto;
+}

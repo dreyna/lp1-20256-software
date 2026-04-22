@@ -10,11 +10,23 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link rel="stylesheet" href="css/estilos.css"/>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <button onclick="cargarSaludo()">Obtener saludo</button>
-        <p id="respuesta"></p>
+        <div class="contenedor-tabla">
+            <table class="tabla-productos">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                    </tr>
+                </thead>
+                <tbody id="resultado"></tbody>
+            </table>
+        </div>
         <script src="js/prod.js"></script>
     </body>
 </html>
